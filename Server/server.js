@@ -291,8 +291,8 @@ const DbUri="mongodb+srv://manavp:blockchain@cluster0.pcsui.mongodb.net/BlockCha
 const Transaction = require('../Models/transaction');
 const { init } = require('../Models/transaction');
 const { request } = require('express');
-const address = '0xb634A1AE49FE2186A2Bbeb090FC0Bf456B5888e0';
-const privateKey = 'f5755c9d708540ce0054e3006f9d9b89e1a3ffead08e3e429d6828165082ec5d';
+const address = 'YOUR WALLET ADDRESS';
+const privateKey = 'YOUR METAMASK PRIVATE KEY';
 const infuraUrl = 'https://polygon-mumbai.infura.io/v3/f56abdb6249c46c592daeb7b2dd3a0c7';
 mongoose.connect(DbUri)
 .then((result)=>{
