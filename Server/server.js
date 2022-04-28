@@ -287,7 +287,7 @@ const contractAbi =[
 const contractAddress='0x71d085FbbeA8695a76eD8B1272a6b587647fe775';
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 const app= express();
-const DbUri="mongodb+srv://manavp:blockchain@cluster0.pcsui.mongodb.net/BlockChain?retryWrites=true&w=majority"
+const DbUri="mongodb+srv://<username>:<password>@cluster0.pcsui.mongodb.net/<databaseName>?retryWrites=true&w=majority"
 const Transaction = require('../Models/transaction');
 const { init } = require('../Models/transaction');
 const { request } = require('express');
